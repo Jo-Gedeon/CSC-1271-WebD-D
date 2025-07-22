@@ -1,0 +1,108 @@
+/* 
+Jo Gedeon
+July 15 2025
+styles.css
+ */
+
+ /* CSS Reset */
+
+ header,body,footer,nav,main,img,h1,h3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+ }
+
+ /* Style rule for body and img */
+
+ body{
+    background-color: #e3eaf8;
+ }
+ img{
+    max-width: 100%;
+    display: block;
+ }
+
+ /* Style rule for header content */
+
+ h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 3%;
+    color: #101a2d;
+ }
+
+ /* Style rules for nav area */
+
+ nav{
+    background-color: #1d396d;
+ 
+    ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    }
+    li{
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    a{
+    color: #e3eaf8;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-decoration: none;
+    }
+    }
+ }
+/* Style rules for main content */
+
+main{
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: auto;
+    
+    p{
+        font-size: 1.25em;
+    }
+
+    h3{
+        padding-top: 2%;
+        font-size: 2em;
+    }
+
+    
+}
+
+#image{
+    width: 45%;
+    float: left;
+    padding: 1%;
+}
+#group{
+    width: 45%;
+    float: right;
+}
+
+.external{
+    color: #1d396d;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italics;
+}
+
+/* Style Rules for footer content*/
+
+footer{
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #1d396d;
+    color: #e3eaf8;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-decoration: none;
+}
